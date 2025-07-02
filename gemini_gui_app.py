@@ -102,7 +102,7 @@ class GeminiGUI(QWidget):
         self._load_and_init_api() # Attempt to load the key and initialize the API on startup
 
     def _init_ui(self):
-        self.setWindowTitle("Gemini GUI (PyQt6)")
+        self.setWindowTitle("Gemini Youtube Summarize")
         self.setGeometry(100, 100, 800, 850)
         self.setStyleSheet(STYLESHEET)
         main_layout = QVBoxLayout(self)

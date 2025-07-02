@@ -11,11 +11,14 @@ venv/
 /dist/
 /build/
 /dist_build
+/ignore
 *.spec
 
 # IDEs
 .vscode/
 .idea/
 
-# Секретные файлы
+# Secret files
 api_key.txt
+pyinstaller.txt
+gui.png
