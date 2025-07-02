@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# PyInstaller
+/dist/
+/build/
+/dist_build
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+
+# Секретные файлы
+api_key.txt
